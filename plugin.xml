@@ -46,7 +46,7 @@
             <uses-permission android:name="android.permission.CAMERA"/>
         </config-file>
 
-            <config-file target="AndroidManifest.xml" parent="application" mode="merge">
+            <config-file target="AndroidManifest.xml" parent="/manifest/application">
                 <provider
                 android:name="com.techaffinity.phonegap.plugins.FileProvider" android:authorities="${applicationId}.provider" android:exported="false"
                 android:grantUriPermissions="true">
