@@ -103,7 +103,7 @@
 
 <podspec>
     <config>
-        <source url="<source url="https://cdn.cocoapods.org/"/>
+        <source url="https://cdn.cocoapods.org/"/>
     </config>
         <pods use-frameworks="true">
 				<pod name="FreshchatSDK" spec="5.5.2"/>
