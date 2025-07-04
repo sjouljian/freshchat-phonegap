@@ -103,9 +103,11 @@
 
 <podspec>
     <config>
-        <source>FreshchatSDK</source>
-        <spec>~> 5.5.2</spec>
+        <source url="<source url="https://cdn.cocoapods.org/"/>
     </config>
+        <pods use-frameworks="true">
+				<pod name="FreshchatSDK" spec="5.5.2"/>
+			</pods>
 </podspec>
         <!-- <source-file src="src/ios/FreshchatSDK/libFDFreshchatSDK.a" target-dir="FreshchatiOSPlugin" framework="true"/> -->
     </platform>
